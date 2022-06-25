@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Google Redesign</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="header menu">
+			<img src="img/svg/menu.svg" alt="menu" class="menu__image" />
+			<div class="location none">
+				<span>Google Store</span>
+				<span>|</span>
+				<img src="img/svg/arrow.svg" alt="arrow" />
+				<span>República Dominicana</span>
+			</div>
+		</div>
+		<div class="header switcher">
+			<div class="mode none"><p>Dark</p></div>
+			<input type="checkbox" id="toggle" class="none" />
+			<label for="toggle" class="switch"></label>
+		</div>
+		<div class="header account">
+			<span class="material-icons md-24 blue">account_circle</span>
+			<span>Johan C</span>
+			<span class="material-icons md-24">expand_more</span>
+		</div>
+		<main>
+			<img src="img/svg/google.svg" alt="Google" class="google__logo" />
+			<form method="get" action="https://www.google.com/search" class="form">
+				<span class="material-icons md-24 blue">search</span>
+				<input
+					type="search"
+					name="q"
+					id="form__search"
+					placeholder="Buscar con google"
+					class="search"
+				/>
+				<span class="littlemic">
+					<img src="img/svg/mini-micro.svg" alt="mini-micro" />
+				</span>
+			</form>
+			<div class="assistant">
+				<span class="microphone-container">
+					<img src="img/svg/microphone.svg" alt="microphone" class="microphone" />
+				</span>
+				<p>Tu asistente de voz...</p>
+				<p>Prueba diciendo algo</p>
+			</div>
+			<div class="google-apps">
+				<a class="circle">
+					<img src="img/svg/youtube.svg" alt="Youtube" />
+				</a>
+				<a class="circle">
+					<img src="img/svg/gmail.svg" alt="Gmail" />
+				</a>
+				<a class="circle">
+					<img src="img/svg/drive.svg" alt="Drive" />
+				</a>
+				<a class="circle">
+					<img src="img/svg/meet.svg" alt="Meet" />
+				</a>
+				<a class="circle">
+					<img src="img/svg/translate.svg" alt="Translate" />
+				</a>
+			</div>
+		</main>
+		<footer>
+			<div class="footer">
+				<span class="material-icons md-36 footer__info gray">info</span>
+				<span class="material-icons md-36 footer__settings gray">settings</span>
+				<div class="language">
+					<span>Español</span>
+					<span class="material-icons md-36">expand_more</span>
+				</div>
+			</div>
+			<div class="footer">
+				<a href="#" class="footer__link">Privacidad</a>
+				<a href="#" class="footer__link">Condiciones</a>
+				<a href="#" class="footer__link">Preferencias</a>
+			</div>
+		</footer>
+	</body>
+</html>
