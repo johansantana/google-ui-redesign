@@ -1,6 +1,6 @@
 # Google UI Redesign
 
-Minimal google ui redesign from [Mao Lop](https://dribbble.com/m4st3rmiau)
+Minimal google ui redesign inspired from a design by [Mao Lop](https://dribbble.com/m4st3rmiau)
 
 ![Google Redesign](img/screenshoot.png)
 
